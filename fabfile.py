@@ -25,4 +25,8 @@ def start():
     apt_update()
     apt_safe_upgrade()
 
+def rvm_install():
+    sudo("\curl -sSL https://get.rvm.io | bash -s stable")
 
+def ruby_install():
+    sudo("rvm install 2.1.1")
