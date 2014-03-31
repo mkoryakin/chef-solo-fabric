@@ -4,7 +4,7 @@
 
 ##To Do
 
-*Improve upgrade process (dialogs?)
-*Add RVM and Ruby install
-*Create chef cookbook
+* Improve upgrade process (dialogs?)
+* Add RVM and Ruby install
+* Create chef cookbook
 
