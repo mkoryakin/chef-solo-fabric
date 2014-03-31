@@ -29,4 +29,6 @@ def rvm_install():
     sudo("\curl -sSL https://get.rvm.io | bash -s stable")
 
 def ruby_install():
-    sudo("rvm install 2.1.1")
+     sudo("rvm install 2.1.1")
+     sudo("rvm --default use 2.1.1")
+     run("ruby -v")
