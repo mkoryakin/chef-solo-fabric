@@ -32,3 +32,7 @@ def ruby_install():
      sudo("rvm install 2.1.1")
      sudo("rvm --default use 2.1.1")
      run("ruby -v")
+
+def chef_install():
+     sudo("gem update --no-rdoc --no-ri")
+     sudo("gem install ohai chef --no-rdoc --no-ri")
